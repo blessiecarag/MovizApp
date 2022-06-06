@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="style.css">
+    <title>Moviz App</title>
+</head>
+<body>
+    
+<!-- Navigation Bar -->
+ <div class="nav">
+    <div class="nav__left">
+      <img class="nav_logo" src="logo.png" alt="">
+    </div>
+    <div class="nav__right">
+        <form  id="form">
+            <input type="text" placeholder="Search" id="search" class="search"> 
+        </form>
+    </div>
+  </div>
+
+    <div id="moviegenres"></div>
+    <div id="myNav" class="trailer">
+
+        <!-- Close button for youtube trailers overlay -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- YT trailers navigations -->
+        <div class="trailer-content" id="trailer-content"></div>
+        
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+        
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+      </div>
+    <main id="main"></main>
+    <div class="navigation">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+
+    <!-- Javascript file-->
+<script src="script.js"></script>
+</body>
+</html>
